@@ -1,0 +1,18 @@
+.Border{
+    border: 10px dotted black;
+    padding: 15px;
+    background-color: brown;
+    background-clip: border-box;
+}
+.Padding{
+    border: 10px dashed black;
+    padding: 15px;
+    background-color: brown;
+    background-clip: padding-box;
+}
+.Content{
+    border: 10px double black;
+    padding: 15px;
+    background-color: brown;
+    background-clip: content-box;
+}

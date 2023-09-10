@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX MODEL TASK 4</title>
+    <style>
+        .box1{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(148, 227, 238);
+        }
+        .box2{
+            height: 200px;
+            width: 200px;
+            border: 20px solid rgb(40, 40, 78);
+            background-color: rgb(148, 227, 238);
+        }
+        .box3{
+            height: 200px;
+            width: 200px;
+            border: 20px solid rgb(43, 43, 83);
+            padding: 20px;
+            background-color: rgb(148, 227, 238);
+        }
+        .box4{
+            height: 200px;
+            width: 200px;
+            border: 20px solid rgb(43, 43, 83);
+            padding: 20px;
+            margin: 20px;
+            background-color: rgb(148, 227, 238);
+        }
+        .task{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="task">
+    <div class="box1">Width: 200 <br>Height: 200 <br>---------------------- <br>Total: 200 * 200</div>
+    <div class="box2">Width: 200 <br>Height: 200 <br>Border: 20 <br>---------------------- <br>Total: 240 * 240</div>
+    <div class="box3">Width: 200 <br>Height: 200 <br>Border: 20 <br>Padding: 20 <br>---------------------- <br>Total: 280 * 280</div>
+    <div class="box4">Width: 200 <br>Height: 200 <br>Border: 20 <br>Padding: 20 <br>margin: 20 <br>---------------------- <br>Over all: 280 * 280</div>
+    </div>
+</body>
+</html>

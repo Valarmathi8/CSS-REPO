@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(185, 209, 212);
+}
+img{
+    height: 350px;
+    width: 500px;
+    
+}
+ .icon{
+    text-align: end;
+    justify-content: space-between;
+    background-color: blue;
+ }
+ .Allign{
+    column-count: 2;
+    column-width: 15px;
+ }
+ .Allign h2{
+    margin-top: 150px;
+    font-style: italic;
+ }
