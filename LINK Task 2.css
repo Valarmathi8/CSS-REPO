@@ -1,0 +1,37 @@
+.letter p::first-letter{
+    color: blue;
+    font-style: oblique;
+}
+.line p::first-line{
+    color: blueviolet;
+    font-size: 20px;
+}
+.selection p::selection{
+    color: deeppink;
+}
+.Before p::before{
+    content: "TRAVEL";
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    color: maroon;
+}
+.After p::after{
+    content: "TRAVEL";
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(7, 71, 12);
+}
+ ol li::marker{
+    color: rgb(238, 12, 12);
+}
+ul li::marker{
+    color: rgb(201, 125, 11);
+}
+.multiple p::first-letter{
+    color: blue;
+    font-style: oblique;
+}
+.multiple p::first-line{
+    color: blueviolet;
+    font-size: 20px;
+}

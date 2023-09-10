@@ -1,0 +1,5 @@
+.p1 input{text-overflow: hidden;}
+.p2 input{text-overflow: ellipsis;}
+.p3 input{text-overflow: "------";}
+.p4 {text-overflow: ellipsis;}
+input{text-overflow: inherit;}

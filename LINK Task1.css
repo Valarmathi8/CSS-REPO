@@ -1,0 +1,23 @@
+.do1:hover{
+    font-size: 40px;
+    color: chartreuse;
+    text-shadow: 4px 4px 2px black;
+}
+.do2:link{
+font-size: 30px;
+font-style: italic;
+}
+.do3:visited{
+color: rgb(15, 116, 28);
+}
+.first li:first-child{color: chocolate;
+}
+.even li:nth-child(even){
+    color: rgb(23, 21, 138);
+    font-style: oblique;
+}
+.odd li:nth-child(odd){
+    color: rgb(236, 18, 18);
+  
+}
+
