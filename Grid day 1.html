@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+    <style>
+        .container1{
+            display: grid;
+            gap: 32px;
+            grid-template-columns: 1fr 2fr 3fr 2fr;
+        }
+        .box{
+            background-color: crimson;
+        }
+        #orange{
+            grid-row: span 2;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+        #white{
+            grid-column: span 3;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container1">
+        <div class="box">yellow</div>
+        <div class="box">green</div>
+        <div class="box">red</div>
+        <div class="box" id="orange">orange</div>
+        <div class="box">grey</div>
+        <div class="box">pink</div>
+        <div class="box">merrown</div>
+        <div class="box">purple</div>
+        <div class="box">blue</div>
+        <div class="box" id="white">white</div>
+        <div class="box">black</div>
+        <div class="box">violet</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid ex 1</title>
+    <style>
+        .box{
+            background-color: rgb(160, 161, 158);
+            border-radius: 20px;
+        }
+
+        img{
+            border: 5px solid black;
+            border-radius: 20px;
+        }
+        .container1{
+            display: grid;
+            gap: 15px;
+            grid-template-columns: 2fr 2fr 2fr 2fr;
+        }
+         #zebra{ grid-column: span 2;}
+         #deer{grid-row: span 2;}
+         #ducks{grid-column: span 3;}
+         #blackhenry{grid-row: span 2;}
+         #whale{grid-column: span 2;}
+         #zebras{grid-column: span 2;}
+         #birds{grid-column: span 2;}
+         #toucan{grid-column: span 2;}
+         #elephants{grid-row: span 2;}
+         #bear{grid-column: span 2;}
+         #flamingo{grid-column: span 2;}
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <div class="box"><img src="https://images.pexels.com/photos/11760851/pexels-photo-11760851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" height="99%" width="97%"></div>
+        <div class="box" id="zebra"><img src="https://images.pexels.com/photos/5146801/pexels-photo-5146801.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" height="99%" width="98%"></div>
+        <div class="box" id="deer"><img src="https://images.pexels.com/photos/5263832/pexels-photo-5263832.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height="100%" width="97%"></div>
+        <div class="box" id="ducks"><img src="https://images.pexels.com/photos/4749959/pexels-photo-4749959.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height="100%" width="99%"></div>
+        <div class="box" id="blackhenry"><img src="https://images.pexels.com/photos/3798196/pexels-photo-3798196.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height="100%" width="97%"></div>
+        <div class="box"><img src="https://images.pexels.com/photos/105804/pexels-photo-105804.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height="99%" width="97%"></div>
+        <div class="box" id="whale"><img src="https://images.pexels.com/photos/11608139/pexels-photo-11608139.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" height="98%" width="98%"></div>
+        <div class="box" id="zebras"><img src="https://images.pexels.com/photos/11760865/pexels-photo-11760865.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height="99%" width="99%"></div>
+        <div class="box"><img src="https://images.pexels.com/photos/4577122/pexels-photo-4577122.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height="99%" width="97%"></div>
+        <div class="box"><img src="https://images.pexels.com/photos/8197559/pexels-photo-8197559.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height="99%" width="97%"></div>
+        <div class="box"><img src="https://images.pexels.com/photos/12011987/pexels-photo-12011987.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height="99%" width="97%"></div>
+        <div class="box" id="birds"><img src="https://images.pexels.com/photos/6796539/pexels-photo-6796539.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height="99%" width="98%"></div>
+        <div class="box" id="elephants"><img src="https://images.pexels.com/photos/3751675/pexels-photo-3751675.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height="99%" width="97%"></div>
+        <div class="box" id="toucan"><img src="https://images.pexels.com/photos/1159577/pexels-photo-1159577.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height="98%" width="97%"></div>
+        <div class="box"><img src="https://images.pexels.com/photos/751689/pexels-photo-751689.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height="98%" width="97%"></div>
+        <div class="box"><img src="https://images.pexels.com/photos/669015/pexels-photo-669015.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height="98%" width="97%"></div>
+        <div class="box" id="bear"><img src="https://images.pexels.com/photos/35435/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" alt="" height="98%" width="99%"></div>
+        <div class="box"><img src="https://images.pexels.com/photos/1526402/pexels-photo-1526402.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height="99%" width="97%"></div>
+        <div class="box" id="flamingo"><img src="https://images.pexels.com/photos/12598146/pexels-photo-12598146.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height="99%" width="99%"></div>
+        <div class="box" id=""><img src="https://images.pexels.com/photos/1046287/pexels-photo-1046287.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height="99%" width="97%"></div>
+    </div>
+</body>
+</html>
